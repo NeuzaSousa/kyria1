@@ -13,11 +13,11 @@ const LanguageSelector = () => {
   }
 
   return (
-    <div onChange={changeLanguage}>
-      <input type="radio" value="en" name="language" defaultChecked /> English <img src={EnglishImg} alt="English" />
-      <input type="radio" value="de" name="language" /> German <img src={GermanImg} alt="German" />
-      <input type="radio" value="fr" name="language" /> French <img src={FrenchImg} alt="French" />
-      <input type="radio" value="pt" name="language"/> Portuguese <img src={PortugueseImg} alt="Portuguese" />
+    <div id="flags" onChange={changeLanguage}>
+      <input type="radio" value="en" name="language" defaultChecked /> EN <img src={EnglishImg} alt="English" />
+      <input type="radio" value="de" name="language" /> DE <img src={GermanImg} alt="German" />
+      <input type="radio" value="fr" name="language" /> FR <img src={FrenchImg} alt="French" />
+      <input type="radio" value="pt" name="language"/> PT <img src={PortugueseImg} alt="Portuguese" />
     </div>
   )
 }
